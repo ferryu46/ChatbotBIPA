@@ -54,10 +54,10 @@ export const Badge = (props: Props) => {
         "background-color": props.badgeBackgroundColor ?? "#ffffff",
       }}
     >
-      Powered by
+      Dikembangkan oleh
       <a
         ref={liteBadge}
-        href={"https://leonvanzyl.com"}
+        href={"https://id.linkedin.com/in/ferryyunkurniawan20bb5216b"}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
@@ -67,7 +67,7 @@ export const Badge = (props: Props) => {
           color: props.poweredByTextColor ?? defaultTextColor,
         }}
       >
-        <span> Leon van Zyl</span>
+        <span> Ferry Yun Kurniawan </span>
       </a>
     </span>
   );
